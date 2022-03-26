@@ -1,13 +1,75 @@
----
-layout: presentation
----
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/all.css"></link>
+<link rel="stylesheet" href="webfonts/fa-brands-400.svg"></link>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
 
-{% for post in site.posts reversed %}
-	{% include slide.html %}
-	<div class="page-break"></div>
-{% endfor %}
-{% unless site.simple-slideshow %}
-{% if site.overview %}
-<section id="overview" class="step" {% for attr in site.overview-data %} data-{{attr[0]}}="{{attr[1]}}"{% endfor %}></section>
-{% endif %}
-{% endunless %}
+    <title>Pimex Industries</title>
+<link rel="stylesheet" href="my.css"></link>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                 </ul>
+                </div>
+                <div class="search">
+                    <input class="srch" type="search" name="" placeholder="Search...">
+                    <a href="#"><button class="btn">Search</button></a>
+                </div>
+            </div>
+            <div class="content">
+                <h1>Pimex Industries & <br><span> Designs</span><br> Complex</h1>
+                <p class="par">
+                    The pimex Industries is fully committed to growth using web designs and development<br> for the well-being of the society
+                     and also to help young & aspiring engineers find it passionate<br> to learn more about web development.
+                    </p>
+                <button class="cn"><a href="my1.html">JOIN US</a></button>
+            
+            <div class="form">
+                <h2>Login here</h2>
+                <input type="email" name="email" placeholder="Enter email Here">
+                <input type="password" name="" placeholder="Enter Password Here">
+                <button class="btnn"><a href="praise3.html">Login</a></button>
+
+                <p class="link">Don't have an account?<br><br>
+                    <a href="#">Sign up</a> here</a></p>
+                    <p class="piw">Log in with</p>
+
+                <div class="icon">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-user-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-share"></i></a></li>
+                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                        <li><a href="#"><i class="fa fa-video"></i></a></li>
+                        </ul>
+                </div> 
+                
+            </div>
+            
+        </div>
+          
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+
+    </body>
+    </html>

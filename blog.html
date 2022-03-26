@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University Website Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="uni.css">
+    <link rel="stylesheet" href="css/all.css"></link>
+    <link rel="stylesheet" href="webfonts/fa-brands-400.svg"></link>
+   </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="uni.html"><img src="logo.png"></a>
+                <div class="navb" id="navb">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="uni.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="courses.html">Course</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+ 
+                    </ul>
+</div>
+
+                     <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Certificate & online Programs For 2022</h1>
+
+
+        </section>
+
+        <!---blog page--->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">  
+                <img src="certificate.jpg">
+                <h2>Our Certificate & online Programs For 2022</h2>  
+                <p>This is the monthly section of our blog posts which we are willing to share to the public on a monthly basis 
+                providing our details are coplete with the aim of helping students with the right information about happenings on campus
+                 and also to sensitize students with the right kind of information.
+                </p>
+                <br>
+                <p>This is the monthly section of our blog posts which we are willing to share to the public on a monthly basis 
+                    providing our details are coplete with the aim of helping students with the right information about happenings on campus
+                     and also to sensitize students with the right kind of information.</p>
+                     <br>
+
+                     <p>This is the monthly section of our blog posts which we are willing to share to the public on a monthly basis 
+                        providing our details are coplete with the aim of helping students with the right information about happenings on campus
+                         and also to sensitize students with the right kind of information.</p>
+
+                        <div class="comment-box">
+                            <h3>Leave a Comment</h3>
+                            <form class="form">
+                                <input type="text" placeholder="Enter Name">
+                                <input type="text" placeholder="Enter email">
+                                <textarea rows="5" placeholder="Your Comment"></textarea>
+                                <button type="submit" class="hero-about">POST COMMENT</button>
+                            </form>
+                        </div>
+
+
+
+              </div>
+              <div class="blog-right">
+
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+
+                <div>
+                    <span>Data Science</span>
+                    <span>25</span>
+                </div>
+
+                <div>
+                    <span>Machine learning</span>
+                    <span>27</span>
+                </div>
+
+                <div>
+                    <span>Computer Science</span>
+                    <span>28</span>
+                </div>
+
+              </div>
+            </div>
+        </section>
+       
+    
+        
+
+        <!---footer-->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>You can contact us on any of these numbers</p>
+
+            <div class="icons">
+                <i class="fa fa-user-plus"></i>
+                <i class="fa fa-share"></i>
+                <i class="fa fa-retweet"></i>
+                <i class="fa fa-video"></i>
+                <p>Made with <i class="fa fa-heart"></i> by Pimex World </p>
+
+            </div>
+        </section>
+
+
+
+        <!------Javascript Section----->
+
+        <script>
+            var navb=document.getElementById("navb");
+            function showMenu(){
+                navb.style.right="0";
+            }
+
+            function hideMenu(){
+                navb.style.right="-200px";}
+        </script>
+
+
+
+
+
+        </body>
+        </html>

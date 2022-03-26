@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(sub.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+    text-align: center;
+    color: white;
+    opacity: 0.9;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+
+
+.main p{
+    
+    margin: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.main h1{
+    margin-top: 200px;
+    text-align: center;
+    color: #ff7200;
+}
+
+
+.email{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+
+.email i{
+    background: #2F3542;
+    width: 40px;
+    line-height: 40px;
+}
+
+.t-box, .btn{
+    border: none;
+    outline: none;
+}
+
+.t-box{
+    width: 0px;
+    transition: 0.6s;
+}
+
+.btn {
+    background: #2F3542;
+    color: white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer ;
+    text-decoration: none;
+    list-style: none;
+}
+
+.btn a{
+    background: #2F3542;
+    color: white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer ;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.email:hover>.t-box, .t-box:focus{
+    width: 260px;
+    padding: 0 10px;
+}

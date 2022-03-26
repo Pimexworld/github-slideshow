@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University Website Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="uni.css">
+    <link rel="stylesheet" href="css/all.css"></link>
+    <link rel="stylesheet" href="webfonts/fa-brands-400.svg"></link>
+   </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="uni.html"><img src="logo.png"></a>
+                <div class="navb" id="navb">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="uni.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="courses.html">Course</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+ 
+                    </ul>
+</div>
+
+                     <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+
+
+        </section>
+
+        <!---contact--->
+
+        <section class="location">
+            <div class="row">
+                <div class="locationz">
+                <img src="code.jpg">
+            </div>
+            </div>
+        </section>
+
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>XYZ Road, ABC Building</h5>
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <span>
+                            <h5>pimo.praise@gmail.com</h5>
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+234 8034056903</h5>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form action="form-handler.php" class="form" method="POST">
+                        <input type="text" name="name" placeholder="Enter Name">
+                        <input type="text" name="email" placeholder="Enter email">
+                        <input type="text" name="subject" placeholder="Subject">
+                        <textarea rows="7" name="message" placeholder="Enter Subject"></textarea>
+                        <button type="submit" class="hero-about">POST COMMENT</button>
+                    </form>
+                
+                </div>
+            </div>
+        </section>
+       
+        
+
+        <!---footer-->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>You can contact us on any of these numbers</p>
+
+            <div class="icons">
+                <i class="fa fa-user-plus"></i>
+                <i class="fa fa-share"></i>
+                <i class="fa fa-retweet"></i>
+                <i class="fa fa-video"></i>
+                <p>Made with <i class="fa fa-heart"></i> by Pimex World </p>
+
+            </div>
+        </section>
+
+
+
+        <!------Javascript Section----->
+
+        <script>
+            var navb=document.getElementById("navb");
+            function showMenu(){
+                navb.style.right="0";
+            }
+
+            function hideMenu(){
+                navb.style.right="-200px";}
+        </script>
+
+
+
+
+
+        </body>
+        </html>
